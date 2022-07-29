@@ -1,3 +1,5 @@
+import { GlobalStyle } from "./GlobalStyle";
+
 export const App = () => {
   return (
     <div
@@ -10,6 +12,7 @@ export const App = () => {
         color: '#010101'
       }}
     >
+      <GlobalStyle/>
       React homework template
     </div>
   );
