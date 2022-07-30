@@ -1,4 +1,5 @@
 import { createGlobalStyle } from 'styled-components'
+import 'normalize.css';
 
 export const GlobalStyle = createGlobalStyle`
 
@@ -25,8 +26,6 @@ li {
 
 img {
   display: block;
-  width: 100%;
-  height: 100%;
 }
 
 h1,
