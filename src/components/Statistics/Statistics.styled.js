@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 
-function randomHexColor() {
+function randomHexColor(){
    return `#${Math.floor(Math.random() * 16777215)
     .toString(16)
     .padStart(6, 0)}`;
@@ -9,7 +9,9 @@ function randomHexColor() {
 
 export const StatsContainer = styled.section`
   display: flex;
+  align-items: center;
   flex-direction: column;
+  min-width:100%;
   padding: 24px;
 `;
 
@@ -23,8 +25,6 @@ export const StatsTitle = styled.h2`
 export const StatList = styled.ul`
     display:flex;
     flex-wrap:wrap;
-    width:100%;
-    
 `;
 
 export const StatItem = styled.li`

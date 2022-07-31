@@ -6,7 +6,9 @@ width: 280px;
   font-size: 16px;
   color: #2c2c2c;
   background-color: #f3f3f3;
-  margin-bottom:30px;
+  margin: 30px auto;
+  border:2px solid black;
+  box-shadow: 2px 8px 8px -1px rgba(0, 0, 0, 0.5);
 `;
 
 export const DescriptionWrap = styled.div`
